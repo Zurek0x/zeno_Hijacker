@@ -28,22 +28,26 @@ class proc_handle():
                         flag2=int(1)
                 if flag == int(1):
                     # Text found in passString #
-                    print("Pass")
+                    print("Pass.PassString")
                 else:
                     for x in range(len(substring)):
                         i = substring[x]
                         if self != None and i in cache[0]:
                             # Text Found Inside of Substring #
-                            print("Found")
+                            print(f"Detected.inString : {cache[0]}")
                             flag2=int(1)
                             # Add more of these "elif x == int(1)" for whatever you need to paste per list.
                             if x == int(0):
-                                func.data_handle.write("Found_0_in_substring_List!")
+                                statement=str("Found_0_in_substring_List!")
+                                func.data_handle.write(statement)
+                                ## / print(statement)
                             elif x == int(1):
-                                func.data_handle.write("Found_1_in_substring_List!")
+                                statement=str("Found_1_in_substring_List!")
+                                func.data_handle.write(statement)
+                                ## / print(statement)
                     if flag2==int(0):
                         # Text Not Found Inside of Substring #
-                        print("Not Found")
+                        print(f"Pass.NoReason")
                         flag=int(0)
 
             
