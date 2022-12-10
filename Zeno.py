@@ -48,13 +48,8 @@ class proc_handle():
                     if flag2==int(0):
                         # Text Not Found Inside of Substring #
                         print(f"Pass.NoReason")
-                        flag=int(0)
-
-            
+                        flag=int(0)   
 
 class setup_idenf():
-    def boot():
+    def start():
         proc_handle.func()
-
-if __name__=="__main__":
-    setup_idenf.boot()
