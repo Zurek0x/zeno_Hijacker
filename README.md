@@ -42,3 +42,11 @@ class data_handle():
         pyperclip.copy(f'{self}')
 ```
 **handles read and write of clipboard inside class and function.**
+# Starting up with windows and extra stuff
+Features involve
+> Hide Console
+> Boot with Windows
+> Install to custom folder
+> Add to registry
+> Change process name/title
+To use these features you must import the code into zeno_Embedder which is a tool to do exactly this -> https://github.com/Zurek0x/zeno_Embedder
