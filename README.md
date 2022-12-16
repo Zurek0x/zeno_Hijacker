@@ -1,4 +1,3 @@
-# Zeno Hijacker ->
 ![alt text](https://github.com/Zurek0x/zeno_Hijacker/blob/main/media/Screenshot_1.png?raw=true)
 # Zeno Hijacker / Clipboard Hijacker written in Python
 This is a Windows API Built clipboard hijacker written in Python (Source Only), There is no
